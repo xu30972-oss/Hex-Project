@@ -1,0 +1,364 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.header{
+    margin-bottom: 60px;
+}
+
+
+.header_bar{
+    width: 1920px;
+    height: 32px;
+    background: #f6f6f8;
+}
+
+.header_bar ul{
+    display: flex;
+    justify-content: end;
+    padding-top: 4px ;
+    padding-right: 405px;
+   
+}
+
+.header_bar a{
+     text-decoration: none;
+
+}
+
+.header_bar img{
+    padding-right: 5px;
+}
+
+.facebook {
+    color:#4267B2;
+    font-size: 16px;
+    border-right: 2px solid #cccc;
+    padding-right: 8px;
+}
+
+
+.twitter{
+    padding-left: 8px;
+    color:#1DA1F2;
+}
+
+.header_content{
+    height: 76px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.header_content h1 a{
+    background-image: url(/img/hexschool-logo.png);
+    width: 150px;
+    height: 36px;
+    display: block;
+    text-indent: 101%;
+    overflow:hidden;
+    white-space: nowrap;
+    
+    
+}
+
+.header_content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.header_content .menu a{
+    text-decoration: none;
+    color: #00251A;
+    font-weight: bold;
+    margin-right: 42px;
+}
+
+.header_content .menu a:hover{
+    color:#00cc99;
+    border-bottom:  5px solid #00cc99;
+    padding-bottom: 22px;
+   
+}
+
+
+.header_banner {
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    top: 25%;
+    left: 0 ;
+    width: 1920px;
+    height: 139px;
+    background: rgba(255, 255, 255, 0.3); 
+}
+
+.box h1{
+    font-size: 36px;
+    line-height: 120%;
+    padding-left: 498px;
+    padding-top: 27px;
+}
+
+.content{
+    width: 1920px;
+   
+   
+}
+.course{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.course .item{
+    width: 350px;
+    height: 353px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgb(182, 182, 182);
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.course img{
+    display:block;
+    margin: 0 auto 20px auto;
+}
+
+.item .Html{
+    margin-top: 20px;
+}
+
+.item .RWD{
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+
+.item .jquery{
+    margin-top: 68px;
+    margin-bottom: 43px;
+    width: 294px;
+    height: 66px;
+}
+
+.course .item h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.course .item p{
+    width: 310px;
+    height: 120px;
+    text-align: left;
+    line-height: 150%;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+.list{
+    margin: 0 auto;
+    width: 920px;
+    height: 305px;
+    margin-bottom: 60px;
+    
+}
+
+
+.list h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+
+.list table{
+    margin: 0 auto;
+    text-align: left;
+    width: 920px;
+    height: 252px;
+    border-top: 1px solid gray;
+}
+
+
+table  th{
+    padding-left: 8px;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+    vertical-align: middle;
+    line-height: 16px;
+    
+    
+}
+
+table td{
+    text-align: left;
+    padding-left: 8px;
+    border-bottom: 1px solid gray;
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.green{
+    color:#00cc99;
+    font-weight: bold;
+}
+
+
+.form{
+    margin: 0 auto;
+    background-image:linear-gradient( #E4FFF8, #A2DDCE);
+    
+    height: 455px;
+}
+.form h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 36px;
+    line-height: 120%;
+}
+.form .container{
+    margin-top: 28px;
+    display:flex;
+    justify-content: center;
+ }
+
+ .container-item{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .container label{
+    height: 19px;
+    line-height: 120%;
+    margin-bottom: 8px;
+    color:#00251A;
+    
+ }
+
+ .container input{
+    width: 351px;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #AAAA;
+    margin-bottom: 16px;
+ }
+
+ .container-item2{
+    margin-left: 30px;
+ }
+
+ textarea{
+    width: 350px;
+    height: 200px;  
+    border-radius: 3px;
+    border: 1px solid #AAAA; 
+    margin-top: 8px;
+    resize: none
+    
+ }
+
+ .form .button{
+    display: block;
+    margin: 0 auto;
+    width: 159px;
+    height: 38px;
+    background: #00251A;
+    color:#fff;
+    border-radius: 3px;
+    border:none;
+    margin-top: 16px;
+ }
+
+
+ .form .button:hover{
+    background-color: #00cc99;
+    color:#ffffff;
+    cursor: pointer;
+ }
+
+ .footer{
+    margin: 0 auto;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px; 
+
+ }
+
+
+ .footer li {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer li a{
+    color:#00cc99;
+    text-decoration: none;
+}
+
+.footer li a:hover{
+    color:#8ad6c3;
+}
+
