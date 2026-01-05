@@ -171,7 +171,6 @@ table {
 
 .course .item{
     width: 350px;
-    height: 353px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 2px 3px rgb(182, 182, 182);
@@ -212,6 +211,7 @@ table {
     line-height: 150%;
     padding-top: 12px;
     padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 .list{
@@ -343,9 +343,7 @@ table td{
     display: flex;
     justify-content: space-between;
     margin-top: 22px; 
-
  }
-
 
  .footer li {
     font-size: 16px;
