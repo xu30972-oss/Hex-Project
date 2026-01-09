@@ -50,7 +50,8 @@ table {
 
 .wrap{
     margin: 0 auto;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%; 
 }
 
 .header{
@@ -72,6 +73,17 @@ table {
     padding-right: 405px;
    
 }
+
+
+@media (max-width:768px) {
+    .header_bar ul{
+        padding-left: 405px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+    
 
 .header_bar a{
      text-decoration: none;
@@ -99,11 +111,20 @@ table {
 }
 
 .header_content{
+    width: 1110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
-    
+    margin-left: 404px;
+}
+
+@media (max-width:768px) {
+    .header_content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 12px;
+    }
 }
 
 .header_content h1 a{
@@ -175,6 +196,14 @@ table {
     justify-content: center;
 }
 
+@media (max-width:768px) {
+    .course ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
 .course .item{
     width: 350px;
     border-radius: 5px;
@@ -241,9 +270,16 @@ table {
 }
 
 
+
 .course .item .jquerylist li{
     line-height: 150%;
     text-align: left;
+}
+
+@media (max-width:768px) {
+    .item ul{
+        text-align: center;
+    }
 }
 
 /*表單內容*/
@@ -251,8 +287,10 @@ table {
 .list{
     margin: 0 auto;
     width: 920px;
-    height: 305px;
+    height: auto;
+    overflow-x: auto;
     margin-bottom: 60px;
+     -webkit-overflow-scrolling: touch;
     
 }
 
@@ -266,9 +304,10 @@ table {
 
 
 .list table{
+    width: 100%;
     margin: 0 auto;
     text-align: left;
-    width: 920px;
+    max-width: 920px;
     height: 252px;
     border-top: 1px solid gray;
 }
@@ -280,7 +319,6 @@ table  th{
     border-bottom: 1px solid gray;
     vertical-align: middle;
     line-height: 16px;
-    
     
 }
 
@@ -315,6 +353,14 @@ table td{
     display:flex;
     justify-content: center;
  }
+
+@media (max-width:768px) {
+    .form .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
  /*表單*/
 
@@ -369,7 +415,6 @@ table td{
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s;
   margin-bottom: 36px;
 }
 
@@ -378,17 +423,27 @@ table td{
 }
 
  .footer{
-    margin: 0 auto;
     width: 1110px;
     display: flex;
     justify-content: space-between;
     margin-top: 22px; 
+    margin-left: 405px;
+ }
+
+ @media (max-width:768px) {
+    .footer {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
  }
 
  .footer li {
     font-size: 16px;
     line-height: 150%;
 }
+
+
 
 .footer li a{
     color:#00cc99;
