@@ -59,8 +59,9 @@ table {
 
 
 .header_bar{
+    padding-top: 4px;
+    padding-bottom: 4px;
     width: 1920px;
-    height: 32px;
     background: #f6f6f8;
 }
 
@@ -75,6 +76,10 @@ table {
 .header_bar a{
      text-decoration: none;
 
+}
+
+.header_bar a:hover{
+    color:#00cc99;
 }
 
 .header_bar img{
@@ -94,7 +99,6 @@ table {
 }
 
 .header_content{
-    height: 76px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -110,6 +114,8 @@ table {
     text-indent: 101%;
     overflow:hidden;
     white-space: nowrap;
+    margin-top: 26px;
+    margin-bottom: 26px;
     
     
 }
@@ -150,28 +156,27 @@ table {
     background: rgba(255, 255, 255, 0.3); 
 }
 
-.box h1{
+.box h2{
     font-size: 36px;
     line-height: 120%;
     padding-left: 498px;
     padding-top: 27px;
 }
 
+/* 中間內容*/
+
 .content{
+    margin: 0 auto;
     width: 1920px;
-   
-   
 }
-.course{
+
+.course ul{
     display:flex;
     justify-content: center;
-    align-items: center;
-    
 }
 
 .course .item{
     width: 350px;
-    text-align: center;
     border-radius: 5px;
     box-shadow: 0 2px 3px rgb(182, 182, 182);
     margin-right: 30px;
@@ -179,20 +184,24 @@ table {
 }
 
 .course img{
-    display:block;
-    margin: 0 auto 20px auto;
+    text-align: center;
+    
 }
 
 .item .Html{
     margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 11.5px;
 }
 
 .item .RWD{
     margin-top: 25px;
     margin-bottom: 2px;
+    margin-left: 88px;
 }
 
 .item .jquery{
+    margin-left: 28px;
     margin-top: 68px;
     margin-bottom: 43px;
     width: 294px;
@@ -200,19 +209,44 @@ table {
 }
 
 .course .item h2{
+    width: 310px;
+    height: 24px;
+    text-align: center;
     font-size: 20px;
     font-weight: bolder;
+    margin-left: 20px;
 }
 
 .course .item p{
     width: 310px;
-    height: 120px;
     text-align: left;
     line-height: 150%;
     padding-top: 12px;
     padding-left: 20px;
     margin-bottom: 20px;
 }
+.item h3{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
+
+ .item ul{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.course .item .jquerylist li{
+    line-height: 150%;
+    text-align: left;
+}
+
+/*表單內容*/
 
 .list{
     margin: 0 auto;
@@ -265,11 +299,10 @@ table td{
 
 
 .form{
-    margin: 0 auto;
+    text-align: center;
     background-image:linear-gradient( #E4FFF8, #A2DDCE);
-    
-    height: 455px;
 }
+
 .form h3{
     text-align: center;
     font-size: 24px;
@@ -289,6 +322,7 @@ table td{
     
  }
  .container label{
+    text-align: left;
     height: 19px;
     line-height: 120%;
     margin-bottom: 8px;
@@ -308,34 +342,39 @@ table td{
     margin-left: 30px;
  }
 
+ .container-item2 label{
+    text-align: left;
+ }
+
  textarea{
     width: 350px;
     height: 200px;  
     border-radius: 3px;
     border: 1px solid #AAAA; 
     margin-top: 8px;
-    resize: none
-    
+    resize: none;
  }
 
- .form .button{
-    display: block;
-    margin: 0 auto;
-    width: 159px;
-    height: 38px;
-    background: #00251A;
-    color:#fff;
-    border-radius: 3px;
-    border:none;
-    margin-top: 16px;
- }
+ .form-submit {
+  margin-top: 30px;
+}
 
+.form-submit button {
+  background-color: #00221c; /* 深色背景 */
+  color: white;
+  width: 159px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-bottom: 36px;
+}
 
- .form .button:hover{
-    background-color: #00cc99;
-    color:#ffffff;
-    cursor: pointer;
- }
+.form-submit button:hover {
+  background-color: #004438;
+}
 
  .footer{
     margin: 0 auto;

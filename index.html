@@ -42,8 +42,8 @@
              <img class="img" src="img/image.png" alt="banner">
 
              <div class="box">
-                <h1>六角學院<br>
-                  讓您奠定良好的前端基礎</h1>
+                <h2>六角學院<br>
+                  讓您奠定良好的前端基礎</h2>
              </div>
 
 
@@ -52,21 +52,32 @@
 
         <div class="content">
             <div class="course">
-                <div class="item">
-                    <img class="Html" src="img/html_icon.png" alt="html.logo">
-                 <h2>Html 5基礎教學</h2>
-                 <p>主流前端設計的基礎就在六角學院。在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
-                </div>
-                <div class="item">
-                    <img class="RWD"src="img/rwd_icon.png" alt="html.logo">
-                 <h2>響應式網站設計</h2>
-                 <p>響應式網站設計（Responsive web design），目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
-                </div>
-                <div class="item">
-                    <img class="jquery"src="img/jquery_icon.png" alt="jQuery.logo"></a>
-                 <h2>jQuery 實戰教學</h2>
-                 <p>本課程有以下特色：<br>．瞭解變數的使用方法<br>．學習操作DOM <br>．學習基本數學運算方法 <br>．套件的操作及運用 </p>
-                </div>
+                   <ul >
+                      <li class="item">
+                         <img class="Html" src="img/html_icon.png" alt="html.logo"><h2>Html 5基礎教學</h2>
+                          <p>主流前端設計的基礎就在六角學院。在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+                        </li>
+                      <li class="item">
+                        <img class="RWD"src="img/rwd_icon.png" alt="RWD.logo">
+                         <h2>響應式網站設計</h2><p>響應式網站設計（Responsive web design），目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+                    </li>
+                      
+                      <li class="item">
+                         <img class="jquery" src="img/jquery_icon.png" alt="jquery.logo">
+                         <h2>jQuery實戰教學</h2>
+                         <div class="jquery_list">
+                             <h3>本課程有以下特色:</h3>
+                              <ul >
+                                 <li>．了解變數的使用方法</li>
+                                 <li>．學習操作DOM</li>
+                                 <li>．學習基本數學運算方法</li>
+                                  <li>．套件的操作及運用</li>
+                               </ul>    
+                         </div>
+                         
+                      </li>
+                  </ul>
+                  
             </div>
             <div class="list">
              <h3>線上課程及實體課程的差異</h3>
@@ -117,8 +128,9 @@
                 </tr>
               </table>
             </div>
-            <div class="form">
+            <form  class="form">
                 <h3>對我們課程有興趣嗎？<br>歡迎留下您的資料</h3>
+
               <div class="container">
                     <div class="container-item">
                       <label for="person">姓名</label>
@@ -131,11 +143,16 @@
                     <div class="container-item2">
                        <label for="text">備註</label>
                        <br>
-                       <textarea  name="note" id="text"></textarea>     
+                       <textarea  name="note" id="text"></textarea>  
+                          
                     </div>
-              </div> 
-                <input class="button" type="submit" value="送出">
-           </div>
+                    
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit">送出</button>
+                </div> 
+                
+            </form>
            
         </div>  
 
