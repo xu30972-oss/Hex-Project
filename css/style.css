@@ -266,8 +266,7 @@ table {
     margin-bottom: 20px;
     line-height: 150%;
     display: flex;
-    flex-direction: column;
-}
+ }
 
 
 
@@ -278,7 +277,11 @@ table {
 
 @media (max-width:768px) {
     .item ul{
-        text-align: center;
+        display: block;
+        text-align: left;
+        margin:0 ;
+        padding-left: 40px;
+       
     }
 }
 
@@ -286,7 +289,7 @@ table {
 
 .list{
     margin: 0 auto;
-    width: 920px;
+    max-width: 920px;
     height: auto;
     overflow-x: auto;
     margin-bottom: 60px;
