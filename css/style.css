@@ -62,7 +62,6 @@ table {
 .header_bar{
     padding-top: 4px;
     padding-bottom: 4px;
-    width: 1920px;
     background: #f6f6f8;
 }
 
@@ -70,7 +69,7 @@ table {
     display: flex;
     justify-content: end;
     padding-top: 4px ;
-    padding-right: 405px;
+    padding-right: 20px;
    
 }
 
@@ -111,11 +110,10 @@ table {
 }
 
 .header_content{
-    width: 1110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 404px;
+    
 }
 
 @media (max-width:768px) {
@@ -168,6 +166,17 @@ table {
     position: relative;
 }
 
+.header_banner img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.box h2 {
+  padding-left: 40px;
+}
+
+
 .box{
     position: absolute;
     top: 25%;
@@ -188,7 +197,7 @@ table {
 
 .content{
     margin: 0 auto;
-    width: 1920px;
+    
 }
 
 .course ul{
@@ -223,7 +232,7 @@ table {
     margin-bottom: 11.5px;
 }
 
-.item .RWD{
+.item .rwd{
     margin-top: 25px;
     margin-bottom: 2px;
     margin-left: 88px;
@@ -311,7 +320,7 @@ table {
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    max-width: 920px;
+    min-width: 920px;
     height: 252px;
     border-top: 1px solid gray;
 }
